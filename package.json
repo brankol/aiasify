@@ -29,8 +29,16 @@
       "browser": true
     },
     "rules": {
-      "quotes": [2, "single"],
-      "camelcase": [2, {"properties": "never"}],
+      "quotes": [
+        2,
+        "single"
+      ],
+      "camelcase": [
+        2,
+        {
+          "properties": "never"
+        }
+      ],
       "no-console": 0,
       "no-alert": 0
     },
@@ -39,5 +47,9 @@
       "module": true,
       "require": true
     }
+  },
+  "devDependencies": {
+    "browser-sync": "^2.7.12",
+    "gulp": "^3.9.0"
   }
 }
