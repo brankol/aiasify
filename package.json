@@ -1,0 +1,43 @@
+{
+  "name": "aiasify",
+  "version": "0.0.0",
+  "description": "A declarative, modular approach to ajaxifying your website",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brankol/ajaxify.git"
+  },
+  "keywords": [
+    "ajax",
+    "ajaxify",
+    "xhr"
+  ],
+  "author": "Branko Kolesarić",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brankol/ajaxify/issues"
+  },
+  "homepage": "https://github.com/brankol/ajaxify",
+  "eslintConfig": {
+    "env": {
+      "browser": true
+    },
+    "rules": {
+      "quotes": [2, "single"],
+      "camelcase": [2, {"properties": "never"}],
+      "no-console": 0,
+      "no-alert": 0
+    },
+    "globals": {
+      "define": true,
+      "module": true,
+      "require": true
+    }
+  }
+}

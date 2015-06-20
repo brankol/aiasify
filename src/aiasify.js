@@ -1,3 +1,14 @@
-(function(window) {
+(function(root, factory) {
     'use strict';
-})(window);
+    if (typeof define === 'function' && define.amd) {
+        define([], factory);
+    } else if (typeof exports === 'object') {
+        module.exports = factory();
+    } else {
+        root.aiasify = factory();
+  }
+}(this, function() {
+    'use strict';
+
+    return {};
+}));
